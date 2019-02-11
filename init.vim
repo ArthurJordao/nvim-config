@@ -40,3 +40,5 @@ nnoremap <c-f> :Ag<space>
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
 
+let g:mix_format_on_save = 1
+
