@@ -11,6 +11,8 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'elixir-editors/vim-elixir'
+Plug 'mhinz/vim-mix-format'
 call plug#end()
 
 colorscheme gruvbox
