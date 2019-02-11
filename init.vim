@@ -10,6 +10,7 @@ Plug 'cohama/lexima.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 colorscheme gruvbox
