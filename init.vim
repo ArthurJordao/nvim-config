@@ -13,6 +13,7 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
+Plug 'arcseldon/vim-elixirConceal'
 call plug#end()
 
 colorscheme gruvbox
