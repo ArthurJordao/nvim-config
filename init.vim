@@ -17,6 +17,7 @@ Plug 'arcseldon/vim-elixirConceal'
 Plug 'tpope/vim-commentary'
 Plug 'slashmili/alchemist.vim'
 Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colorscheme gruvbox
