@@ -14,6 +14,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
 Plug 'arcseldon/vim-elixirConceal'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 colorscheme gruvbox
