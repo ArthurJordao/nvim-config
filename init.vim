@@ -18,6 +18,7 @@ Plug 'tpope/vim-commentary'
 Plug 'slashmili/alchemist.vim'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 call plug#end()
 
 colorscheme gruvbox
