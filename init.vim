@@ -15,6 +15,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
 Plug 'arcseldon/vim-elixirConceal'
 Plug 'tpope/vim-commentary'
+Plug 'slashmili/alchemist.vim'
 call plug#end()
 
 colorscheme gruvbox
