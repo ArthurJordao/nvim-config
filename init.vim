@@ -40,6 +40,7 @@ let mapleader="\<space>"
 
 nnoremap <leader>; A;<esc>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
+nnoremap <leader><space> :noh<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 
