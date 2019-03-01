@@ -20,6 +20,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 colorscheme gruvbox
@@ -44,6 +45,9 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader><space> :noh<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
+nnoremap <Leader>f :NERDTreeToggle<Enter>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+
 
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
@@ -52,3 +56,7 @@ let g:mix_format_on_save = 1
 
 let g:deoplete#enable_at_startup = 1
 
+let NERDTreeQuitOnOpen = 1
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
