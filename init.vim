@@ -19,6 +19,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'jlanzarotta/bufexplorer'
 call plug#end()
 
 colorscheme gruvbox
