@@ -38,6 +38,8 @@ set clipboard=unnamed
 set expandtab
 set shiftwidth=2
 
+set updatetime=100
+
 let mapleader="\<space>"
 
 nnoremap <leader>; A;<esc>
